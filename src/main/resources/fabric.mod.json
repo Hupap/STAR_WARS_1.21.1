@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "herbslightsabers",
+	"version": "${version}",
+	"name": "Herb's Lightsabers - STAR WARS",
+	"description": "This is a Star Wars Mod that adds Lightsabers, Force-Powers and much more to your game!",
+	"authors": [
+		"Jannik!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/herbslightsabers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jannik.herbslightsabers.HerbsLightsabersSTARWARS"
+		],
+		"fabric-datagen": [
+			"net.jannik.herbslightsabers.HerbsLightsabersSTARWARSDataGenerator"
+		],
+		"client": [
+			"net.jannik.herbslightsabers.HerbsLightsabersSTARWARSClient"
+		]
+	},
+	"mixins": [
+		"herbslightsabers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
