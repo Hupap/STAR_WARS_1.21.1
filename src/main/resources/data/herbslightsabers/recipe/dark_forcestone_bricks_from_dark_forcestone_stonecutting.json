@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "herbslightsabers:dark_forcestone"
+  },
+  "result": {
+    "count": 1,
+    "id": "herbslightsabers:dark_forcestone_bricks"
+  }
+}
