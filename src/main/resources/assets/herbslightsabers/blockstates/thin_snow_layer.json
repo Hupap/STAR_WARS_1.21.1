@@ -2,7 +2,9 @@
   "multipart": [
     {
       "apply": {
-        "model": "minecraft:block/vine"
+        "model": "minecraft:block/black_carpet",
+        "uvlock": true,
+        "x": 270
       },
       "when": {
         "north": "true"
@@ -10,21 +12,24 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/vine"
+        "model": "minecraft:block/black_carpet",
+        "uvlock": true,
+        "x": 270
       },
       "when": {
         "east": "false",
         "north": "false",
         "south": "false",
-        "up": "false",
+        "down": "false",
         "west": "false"
       }
     },
     {
       "apply": {
-        "model": "minecraft:block/vine",
+        "model": "minecraft:block/black_carpet",
         "uvlock": true,
-        "y": 90
+        "x": 90,
+        "y": 270
       },
       "when": {
         "east": "true"
@@ -32,23 +37,24 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/vine",
+        "model": "minecraft:block/black_carpet",
         "uvlock": true,
-        "y": 90
+        "x": 90,
+        "y": 270
       },
       "when": {
         "east": "false",
         "north": "false",
         "south": "false",
-        "up": "false",
+        "down": "false",
         "west": "false"
       }
     },
     {
       "apply": {
-        "model": "minecraft:block/vine",
+        "model": "minecraft:block/black_carpet",
         "uvlock": true,
-        "y": 180
+        "x": 90
       },
       "when": {
         "south": "true"
@@ -56,22 +62,23 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/vine",
+        "model": "minecraft:block/black_carpet",
         "uvlock": true,
-        "y": 180
+        "x": 90
       },
       "when": {
         "east": "false",
         "north": "false",
         "south": "false",
-        "up": "false",
+        "down": "false",
         "west": "false"
       }
     },
     {
       "apply": {
-        "model": "minecraft:block/vine",
+        "model": "minecraft:block/black_carpet",
         "uvlock": true,
+        "x": 270,
         "y": 270
       },
       "when": {
@@ -80,39 +87,38 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/vine",
+        "model": "minecraft:block/black_carpet",
         "uvlock": true,
+        "x": 270,
         "y": 270
       },
       "when": {
         "east": "false",
         "north": "false",
         "south": "false",
-        "up": "false",
+        "down": "false",
         "west": "false"
       }
     },
     {
       "apply": {
-        "model": "minecraft:block/vine",
-        "uvlock": true,
-        "x": 270
+        "model": "minecraft:block/black_carpet",
+        "uvlock": true
       },
       "when": {
-        "up": "true"
+        "down": "true"
       }
     },
     {
       "apply": {
-        "model": "minecraft:block/vine",
-        "uvlock": true,
-        "x": 270
+        "model": "minecraft:block/black_carpet",
+        "uvlock": true
       },
       "when": {
         "east": "false",
         "north": "false",
         "south": "false",
-        "up": "false",
+        "down": "false",
         "west": "false"
       }
     }

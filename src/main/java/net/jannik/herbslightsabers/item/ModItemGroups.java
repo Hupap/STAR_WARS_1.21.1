@@ -23,6 +23,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHISELED_DARK_FORCESTONE);
                         entries.add(ModBlocks.CHISELED_DARK_FORCESTONE_BRICKS);
                         entries.add(ModBlocks.THIN_SNOW_LAYER);
+                        entries.add(ModItems.CHISEL);
 
                     }).build());
 

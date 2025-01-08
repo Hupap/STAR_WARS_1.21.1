@@ -2,6 +2,7 @@ package net.jannik.herbslightsabers.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.jannik.herbslightsabers.HerbsLightsabersSTARWARS;
+import net.jannik.herbslightsabers.block.custom.ThinSnowLayerBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.piston.PistonBehavior;
@@ -52,7 +53,7 @@ public class ModBlocks {
                     .pistonBehavior(PistonBehavior.IGNORE)));
 
     public static final Block THIN_SNOW_LAYER = registerBlock("thin_snow_layer",
-            new Block(AbstractBlock.Settings.create()
+            new ThinSnowLayerBlock(AbstractBlock.Settings.create()
                     .requiresTool()
                     .noCollision()
                     .breakInstantly()
