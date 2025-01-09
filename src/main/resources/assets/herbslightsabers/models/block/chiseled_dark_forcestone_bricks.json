@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "herbslightsabers:block/chiseled_dark_forcestone_bricks_top",
-    "side": "herbslightsabers:block/chiseled_dark_forcestone_bricks"
-  }
-}

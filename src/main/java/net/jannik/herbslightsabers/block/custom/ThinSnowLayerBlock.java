@@ -45,6 +45,8 @@ public class ThinSnowLayerBlock extends Block {
     private static final VoxelShape NORTH_SHAPE = Block.createCuboidShape(0.0, 0.0, 15.9, 16.0, 16.0, 16.0);
     private final Map<BlockState, VoxelShape> shapesByState;
 
+
+
     @Override
     public MapCodec<VineBlock> getCodec() {
         return CODEC;

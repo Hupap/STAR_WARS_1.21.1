@@ -58,7 +58,8 @@ public class ModBlocks {
                     .noCollision()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.SNOW)
-                    .pistonBehavior(PistonBehavior.DESTROY)));
+                    .pistonBehavior(PistonBehavior.DESTROY)
+                    .nonOpaque()));
 
 
 
