@@ -22,7 +22,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_DARK_FORCESTONE);
                         entries.add(ModBlocks.CHISELED_DARK_FORCESTONE);
                         entries.add(ModBlocks.CHISELED_DARK_FORCESTONE_BRICKS);
-                        entries.add(ModBlocks.THIN_SNOW_LAYER);
+                        entries.add(ModBlocks.DARK_FORCESTONE_AUREBESH_BLOCK);
+                        entries.add(ModBlocks.DARK_FORCESTONE_AUREBESH_BLOCK2);
+                        entries.add(ModBlocks.DARK_FORCESTONE_AUREBESH_BLOCK3);
+                        entries.add(ModBlocks.DARK_FORCESTONE_AUREBESH_BLOCK4);
+                        entries.add(ModBlocks.DARK_FORCESTONE_AUREBESH_BLOCK5);
+                        entries.add(ModBlocks.DARK_FORCESTONE_STAIRS);
+                        entries.add(ModBlocks.DARK_FORCESTONE_BRICK_STAIRS);
+                        entries.add(ModBlocks.POLISHED_DARK_FORCESTONE_STAIRS);
+                        entries.add(ModBlocks.DARK_FORCESTONE_SLAB);
+                        entries.add(ModBlocks.DARK_FORCESTONE_BRICK_SLAB);
+                        entries.add(ModBlocks.POLISHED_DARK_FORCESTONE_SLAB);
+                        entries.add(ModBlocks.DARK_FORCESTONE_WALL);
+                        entries.add(ModBlocks.DARK_FORCESTONE_BRICK_WALL);
+                        entries.add(ModBlocks.POLISHED_DARK_FORCESTONE_WALL);
+                        entries.add(ModBlocks.DARK_FORCESTONE_BUTTON);
+                        entries.add(ModBlocks.DARK_FORCESTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.THIN_ROUND_SNOW_LAYER);
+                        entries.add(ModBlocks.THIN_BRICK_SNOW_LAYER);
                         entries.add(ModItems.CHISEL);
 
                     }).build());

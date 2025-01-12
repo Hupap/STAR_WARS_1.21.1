@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "herbslightsabers:block/dark_forcestone_aurebesh_block2"
+    },
+    "clicked=true": {
+      "model": "herbslightsabers:block/dark_forcestone_aurebesh_block_on2"
+    }
+  }
+}

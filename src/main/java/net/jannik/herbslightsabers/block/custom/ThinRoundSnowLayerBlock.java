@@ -4,7 +4,6 @@ import com.google.common.collect.ImmutableMap;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
 import net.minecraft.item.ItemPlacementContext;
-import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.util.BlockMirror;
@@ -16,7 +15,6 @@ import net.minecraft.util.math.random.Random;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
-import net.minecraft.world.GameRules;
 import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 import org.jetbrains.annotations.Nullable;
@@ -25,7 +23,7 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class ThinSnowLayerBlock extends Block {
+public class ThinRoundSnowLayerBlock extends Block {
     public static final MapCodec<VineBlock> CODEC = createCodec(VineBlock::new);
     public static final BooleanProperty DOWN = ConnectingBlock.DOWN;
     public static final BooleanProperty NORTH = ConnectingBlock.NORTH;
@@ -52,7 +50,7 @@ public class ThinSnowLayerBlock extends Block {
         return CODEC;
     }
 
-    public ThinSnowLayerBlock(AbstractBlock.Settings settings) {
+    public ThinRoundSnowLayerBlock(AbstractBlock.Settings settings) {
         super(settings);
         this.setDefaultState(
                 this.stateManager
@@ -67,7 +65,7 @@ public class ThinSnowLayerBlock extends Block {
                 (Map<? extends BlockState, ? extends VoxelShape>)this.stateManager
                         .getStates()
                         .stream()
-                        .collect(Collectors.toMap(Function.identity(), ThinSnowLayerBlock::getShapeForState))
+                        .collect(Collectors.toMap(Function.identity(), ThinRoundSnowLayerBlock::getShapeForState))
         );
     }
 
@@ -76,6 +74,7 @@ public class ThinSnowLayerBlock extends Block {
         if ((Boolean)state.get(DOWN)) {
             voxelShape = DOWN_SHAPE;
         }
+
 
         if ((Boolean)state.get(NORTH)) {
             voxelShape = VoxelShapes.union(voxelShape, SOUTH_SHAPE);

@@ -8,6 +8,7 @@ import net.minecraft.client.render.RenderLayer;
 public class HerbsLightsabersSTARWARSClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.THIN_SNOW_LAYER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.THIN_ROUND_SNOW_LAYER, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.THIN_BRICK_SNOW_LAYER, RenderLayer.getTranslucent());
     }
 }

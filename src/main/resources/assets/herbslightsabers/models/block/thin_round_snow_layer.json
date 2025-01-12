@@ -1,0 +1,16 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "block/snow",
+    "sculk_vein": "herbslightsabers:block/thin_round_snow_layer"
+  },
+  "elements": [
+    {   "from": [ 0, 0, 0.1 ],
+      "to": [ 16, 16, 0.1 ],
+      "faces": {
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#sculk_vein" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#sculk_vein" }
+      }
+    }
+  ]
+}

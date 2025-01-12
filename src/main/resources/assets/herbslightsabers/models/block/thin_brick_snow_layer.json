@@ -1,8 +1,8 @@
 {
   "ambientocclusion": false,
   "textures": {
-    "particle": "block/sculk_vein",
-    "sculk_vein": "herbslightsabers:block/thin_snow_layer"
+    "particle": "block/snow",
+    "sculk_vein": "herbslightsabers:block/thin_brick_snow_layer"
   },
   "elements": [
     {   "from": [ 0, 0, 0.1 ],

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "herbslightsabers:block/dark_forcestone_aurebesh_block_on4"
+  }
+}
